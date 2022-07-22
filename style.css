@@ -1,0 +1,164 @@
+/*-----------------
+ google font .
+ ------------------------------ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+
+ body{
+  font-family: 'Poppins', sans-serif;
+ }
+ main{
+  background-color: #FFFFFF;
+ }
+ /*---------------
+  First fart 
+  -----------------*/
+ h1{
+  font-size: 60px;
+ }
+ p{
+  font-size: 16px;
+ }
+ .fast-fart{
+  display: flex;
+ width: 100%;
+ }
+ .link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 8px 30px;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+}
+ .properties{
+  width: 1321px;
+  height: 646px;
+  background-color: #161616;
+  color: #FFFFFF;
+  border-radius: 30px;
+  margin: 20px;
+  margin-left: 50px;
+  margin-top: 65px;
+  
+  width: 93%;
+  
+ }
+ .the-earth{
+  width: 50%;
+   width: 531px;
+   height: 424px;
+   width: 50%;
+   padding-left: 106px;
+ }
+.half-width img{
+  width: 581px;
+  height: 613px;
+  width: 80%;
+}
+
+/*------------------
+ Second fort
+ --------------------- */
+ .all-rounder{
+  display: flex;
+ }
+ .form{
+  width: 312px;
+ height: 312px;
+ border-radius: 10px;
+ background-color: #161616;
+ margin: 50px;
+ }
+
+.one, .two{
+  width: 200px;
+  height: 64px;
+  margin-left: 50px;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 500;
+  font-size: 20px;
+   text-align: center;
+   margin-top: 30px;
+}
+
+.three{
+  width: 200px;
+  height: 64px;
+  margin-left: 50px;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 500;
+  font-size: 20px;
+   text-align: center;
+   margin-top: 30px;
+  background-color: #DD0000;
+}
+
+.disflay-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap:10px;
+  grid-row-gap:10px;
+ margin-top: 50px;
+
+}
+.player-info-d{
+  display: flex;
+}
+.transfer{
+  width: 312px;
+ 
+border: 1px solid rebeccapurple;
+border-radius: 10px;
+
+}
+.player-img img{
+  width: 312px;
+ height: 175px;
+ border-radius: 10px 10px 0px 0px;
+}
+.padding{
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 600px;
+  color: #161616;
+}
+
+/*--------------------
+ footer
+ --------------------- */
+ footer{
+  width: 100%;
+  height: 244px;
+  background-color: #161616;
+  justify-content: center;
+  }
+h2{
+width: 95px;
+height: 60px;
+color: #FFFFFF;
+font-size: 40px;
+font-weight: 600;
+
+}
+hr{
+  width: 1320px;
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #FFFFFF 10%;
+ 
+}
+.solved{
+  display: flex;
+  color: #B9B9B9;
+  font-weight: 500;
+font-size: 16px;
+justify-content: center;
+
+}
+.solved p{
+  padding-left: 30px;
+  padding-top: 20px;
+}
