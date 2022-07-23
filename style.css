@@ -25,11 +25,11 @@
  }
  .link-button {
   text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
-  padding: 8px 30px;
-  color: white;
+  padding: 8px 12px 8px 12px;
+  color: #FFFFFF;
+  background-color: #DD0000;
   font-weight: 700;
-  border-radius: 10px;
+  border-radius: 5px;
 }
  .properties{
   width: 1321px;
@@ -62,6 +62,7 @@
  --------------------- */
  .all-rounder{
   display: flex;
+  width: 100%;
  }
  .form{
   width: 312px;
@@ -133,7 +134,7 @@ border-radius: 10px;
   width: 100%;
   height: 244px;
   background-color: #161616;
-  justify-content: center;
+  text-align: center;
   }
 h2{
 width: 95px;
@@ -141,14 +142,8 @@ height: 60px;
 color: #FFFFFF;
 font-size: 40px;
 font-weight: 600;
+justify-content: c;
 
-}
-hr{
-  width: 1320px;
-  height: 0px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: #FFFFFF 10%;
- 
 }
 .solved{
   display: flex;
@@ -156,9 +151,60 @@ hr{
   font-weight: 500;
 font-size: 16px;
 justify-content: center;
+}
 
-}
-.solved p{
-  padding-left: 30px;
-  padding-top: 20px;
-}
+/*---------------------------------------
+ media query breakpoints,small devise 
+ ---------------------------------------*/
+
+@media screen and (max-width:720px) {
+  /*CSS code for devices with a maximal width of 720 px */
+  
+
+  .properties{
+    width: 100%;
+    height: 100%;
+  }
+  .fast-fart{
+    flex-direction: column;
+  }
+  .all-rounder{
+    flex-direction: column;
+background-color: white;
+  }
+  .disflay-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .solved{
+    flex-direction: column;
+ height: 400px;
+ background-color: black;
+  }
+
+  }
+  /*---------------------------------------
+ media query breakpoints,
+-------medium devise---------------------- 
+ ---------------------------------------*/
+ @media screen and (min-width:721px) and (max-width:995px){
+  .all-rounder{
+    flex-direction: column;
+
+  }
+  .disflay-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .all-rounder{
+    flex-direction: column;
+  }
+  .form{
+    display: flex;
+    background-color: white;
+    width: 50000px;
+  }
+
+
+ }
